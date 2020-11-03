@@ -86,6 +86,7 @@ def supported_commands():
         'clean',
         'clone',
         'config',
+        'dump',
         'decrypt',
         'encrypt',
         'enter',
