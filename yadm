@@ -1145,6 +1145,7 @@ clean
 clone
 config
 decrypt
+dump
 encrypt
 enter
 git-crypt
@@ -1157,7 +1158,6 @@ perms
 transcrypt
 upgrade
 version
-dump
 EOF
 }
 
