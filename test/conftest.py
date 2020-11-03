@@ -285,6 +285,7 @@ def paths(tmpdir, yadm):
     file_archive = dir_yadm.join('files.gpg')
     file_bootstrap = dir_yadm.join('bootstrap')
     file_config = dir_yadm.join('config')
+    file_dump = dir_yadm.join('dump')
     file_encrypt = dir_yadm.join('encrypt')
     paths = collections.namedtuple(
         'Paths', [
@@ -298,6 +299,7 @@ def paths(tmpdir, yadm):
             'archive',
             'bootstrap',
             'config',
+            'dump',
             'encrypt',
             ])
     return paths(
@@ -311,6 +313,7 @@ def paths(tmpdir, yadm):
         file_archive,
         file_bootstrap,
         file_config,
+        file_dump,
         file_encrypt,
         )
 
