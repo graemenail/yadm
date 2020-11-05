@@ -45,6 +45,8 @@ list
 
 .BR yadm " bootstrap
 
+.BR yadm " dump
+
 .BR yadm " encrypt
 
 .BR yadm " decrypt
@@ -181,6 +183,11 @@ Files decrypted will be relative to the configured
 Using the
 .B -l
 option will list the files stored without extracting them.
+.TP
+.B dump
+Execute
+.I $HOME/.config/yadm/dump
+if it exists.
 .TP
 .B encrypt
 Encrypt all files matching the patterns found in
@@ -926,6 +933,14 @@ List of globs used for encrypt/decrypt
 All files encrypted with
 .B yadm encrypt
 are stored in this file.
+.TP
+.I $YADM_DIR/bootstrap
+Executable called via
+.BR "yadm bootstrap" .
+.TP
+.I $YADM_DIR/dump
+Executable called via
+.BR "yadm dump" .
 
 .SH EXAMPLES
 
