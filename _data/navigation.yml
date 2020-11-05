@@ -29,6 +29,8 @@ docs:
     children:
       - title: "Bootstrap"
         url: /docs/bootstrap
+      - title: "Dump"
+        url: /docs/dump
       - title: "Alternate Files"
         url: /docs/alternates
       - title: "Templates"
